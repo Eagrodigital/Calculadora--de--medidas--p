@@ -128,7 +128,7 @@ def mostrar_menu(i):
 
 
 # ----------------------------------------- Configurando Frame Esquerda -------------------------------------
-img_0 = Image.open('calculadora medias/icons/area.png') 
+img_0 = Image.open('area.png') 
 img_0 = img_0.resize((50,50), Image.ANTIALIAS)
 img_0 = ImageTk.PhotoImage(img_0)
 
@@ -136,7 +136,7 @@ b_0 = Button(frame_esquerda, command=lambda: mostrar_menu('area'),  text='area',
 b_0.grid(row=0, column=0, sticky=NSEW, pady=5, padx=5)
 
 #Comprimento
-img_1 = Image.open('calculadora medias/icons/comprimento.png')
+img_1 = Image.open('comprimento.png')
 img_1 = img_1.resize((50,50), Image.ANTIALIAS)
 img_1 = ImageTk.PhotoImage(img_1)
 
@@ -144,7 +144,7 @@ b_1 = Button(frame_esquerda, command=lambda: mostrar_menu('comprimento'), text='
 b_1.grid(row=0, column=1, sticky=NSEW, pady=5, padx=5)
 
 #Energia
-img_2 = Image.open('calculadora medias/icons/energia.png')
+img_2 = Image.open('energia.png')
 img_2 = img_2.resize((50,50), Image.ANTIALIAS)
 img_2 = ImageTk.PhotoImage(img_2)
 
@@ -152,7 +152,7 @@ b_2 = Button(frame_esquerda, command=lambda: mostrar_menu('energia'), text='ener
 b_2.grid(row=0, column=2, sticky=NSEW, pady=5, padx=5)
 
 #Peso
-img_3 = Image.open('calculadora medias/icons/peso.png')
+img_3 = Image.open('peso.png')
 img_3 = img_3.resize((50,50), Image.ANTIALIAS)
 img_3 = ImageTk.PhotoImage(img_3)
 
@@ -160,7 +160,7 @@ b_3 = Button(frame_esquerda, command=lambda: mostrar_menu('massa'), text='massa'
 b_3.grid(row=1, column=0, sticky=NSEW, pady=5, padx=5)
 
 #Pressão
-img_4 = Image.open('calculadora medias/icons/pressão.png')
+img_4 = Image.open('pressão.png')
 img_4 = img_4.resize((50,50), Image.ANTIALIAS)
 img_4 = ImageTk.PhotoImage(img_4)
 
@@ -168,7 +168,7 @@ b_4 = Button(frame_esquerda, command=lambda: mostrar_menu('pressão'), text='pre
 b_4.grid(row=1, column=1, sticky=NSEW, pady=5, padx=5)
 
 #Tempo
-img_5 = Image.open('calculadora medias/icons/tempo.png')
+img_5 = Image.open('tempo.png')
 img_5 = img_5.resize((50,50), Image.ANTIALIAS)
 img_5 = ImageTk.PhotoImage(img_5)
 
@@ -176,7 +176,7 @@ b_5 = Button(frame_esquerda, command=lambda: mostrar_menu('tempo'), text='tempo'
 b_5.grid(row=1, column=2, sticky=NSEW, pady=5, padx=5)
 
 #Temperatura
-img_6 = Image.open('calculadora medias/icons/termômetro.png')
+img_6 = Image.open('termômetro.png')
 img_6 = img_6.resize((50,50), Image.ANTIALIAS)
 img_6 = ImageTk.PhotoImage(img_6)
 
@@ -184,7 +184,7 @@ b_6 = Button(frame_esquerda, command=lambda: mostrar_menu('temperatura'), text='
 b_6.grid(row=2, column=0, sticky=NSEW, pady=5, padx=5)
 
 #Velocidade
-img_7 = Image.open('calculadora medias/icons/velocidade.png')
+img_7 = Image.open('velocidade.png')
 img_7 = img_7.resize((50,50), Image.ANTIALIAS)
 img_7 = ImageTk.PhotoImage(img_7)
 
@@ -192,7 +192,7 @@ b_7 = Button(frame_esquerda, command=lambda: mostrar_menu('velocidade'), text='v
 b_7.grid(row=2, column=1, sticky=NSEW, pady=5, padx=5)
 
 #Volume
-img_8 = Image.open('calculadora medias/icons/volume.png')
+img_8 = Image.open('volume.png')
 img_8 = img_8.resize((50,50), Image.ANTIALIAS)
 img_8 = ImageTk.PhotoImage(img_8)
 
